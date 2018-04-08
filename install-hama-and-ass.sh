@@ -1,7 +1,5 @@
 echo "Beginning Install"
 
-sudo apt-get install git -y
-
 docker stop plex
 cd '/opt/appdata/plex/database/Library/Application Support/Plex Media Server/Plug-ins'
 git clone https://github.com/ZeroQI/Hama.bundle.git
